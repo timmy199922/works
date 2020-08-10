@@ -1,0 +1,54 @@
+#all {
+    width: 80%;
+    height: auto;
+    margin: auto;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.nav {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    border-bottom: 1px solid #d8d8d8;
+}
+
+.nav li {
+    float: left;
+    list-style-type: none;
+    color: #d8d8d8;
+    width: 20%;
+    font-size: 20px;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer
+}
+.nav .active{
+    font-weight: bold;
+    color: #555555;
+    border-bottom: 4px solid #555555;
+}
+
+.banner {
+    height: auto;
+    overflow: hidden;
+    position: relative
+}
+
+.banner img {
+	display: block;
+    height: auto;
+	overflow: hidden;
+    float: left
+}
+@media screen and (max-width: 750px){
+    .nav li {
+        font-size: 12px;
+    }
+
+    .nav .active {
+        font-size: 16px;
+    }
+}
